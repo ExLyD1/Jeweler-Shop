@@ -1,0 +1,569 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+#startBackImg{
+  background-image: url(../images/backgroundImgStart.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+
+#headerItemsHolder a{
+  color:white;
+  text-decoration: none;
+}
+
+#headerItemsHolder{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width:80%;
+  height:5vh;
+  margin: auto;
+}
+
+#headerItemsFirst{
+  width:25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#headerItemsSecond{
+  height: 70%;
+}
+
+#headerItemsThird{
+  width:25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#startQuotient{
+  text-align: center;
+  color:#fff;
+  width: 40%;
+}
+
+#startButtonKatalog{
+  border:1px solid white;
+  color:#fff;
+  text-decoration: none;
+  width: 11%;
+  font-size: 17px;
+  padding: 15px 35px 15px 35px;
+  cursor: pointer;
+  margin-top: 4%;
+  background-color: #333333;
+}
+
+.quoteHolder{
+  margin-top: 25%;
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  flex-direction: column;
+}
+
+
+#horizontalSeparator{
+  border-top: 1px solid white;
+  width: 100%;
+  height:0vh;
+  margin-top: 5%;
+}
+
+
+#imgDlyaEblanovHolder{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  width: 70%;
+  height: 30%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.imgDlyaEblanov{
+  width: 100%;
+  height: 100%;
+}
+
+.imgDlyaEblanovSeparator{
+  width:0%;
+  height:5vh;
+  border-right: 1px solid white;
+  margin: auto;
+}
+
+@media screen and (max-width:768px){
+  .quoteHolder{
+    margin-top: 10%;
+  }
+
+  #startQuotient{
+    font-size: 20px;
+  }
+
+  #startButtonKatalog{
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+  }
+
+  .imagesTypeNumber6, .imagesTypeNumber5, .imagesTypeNumber4, .imgSeparatorTypeNumber4, .imgSeparatorTypeNumber5{
+    display: none;
+  }
+}
+
+/* @media screen and (max-width:350px) {
+  .logoImg{
+    display: none;
+  }
+} */
+/* Second Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+.secondPartStart{
+  height: 83vh;
+  width: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin: auto;
+}
+
+.secondPartItems{
+  text-align: center;
+}
+.secondPartItems1{
+  font-size:25px;
+  line-height: 29.4px;
+}
+
+.secondPartItems2{
+  line-height: 40.86px;
+}
+
+#categoryItemsHolder{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categoryItems{
+  border: 1px solid gray;
+  color:black;
+  user-select: none;
+  width:11.5%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+
+}
+
+.categoryItemsActive{
+  color:#fff;
+  background-color: #333333;
+}
+
+
+.categoryImages1{
+  background-image: url(../images/ringImg.png);
+}
+.categoryImages2{
+  background-image: url(../images/sergiImg.png);
+}
+.categoryImages3{
+  background-image: url(../images/podveskaImg.png);
+}
+.categoryImages4{
+  background-image: url(../images/zaponkaImg.png);
+}
+.categoryImages5{
+  background-image: url(../images/brasletImg.png);
+}
+.categoryImages6{
+  background-image: url(../images/clockImg.png);
+}
+
+#categoryImagesHolder{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 49vh;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.categoryImages{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width:30%;
+  height: auto;
+  font-size:25px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  line-height: 85px;
+  color:#fff;
+}
+
+/* @media screen and (min-width:1025px) {
+  .categoryImages{
+    height: 100%;
+  }
+} */
+/* Third Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+#thirdPartStart{
+  width: 100%;
+  height: 49vh;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  background-image: url(../images/thirdPartBackground.png);
+  background-size: 100%;
+}
+
+.thirdPartItems{
+  color:#fff;
+  text-align: center;
+}
+
+.thirdPartItems1{
+  font-size: 21px;
+  line-height: 29.4px;
+}
+.thirdPartItems2{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40.86px;
+}
+.thirdPartItems3{
+  font-size:18px;
+  line-height: 25.2px;
+  width: 36%;
+}
+.thirdPartButton{
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  padding: 15px 35px;
+  font-weight: 500;
+  font-size:18px;
+  line-height: 21.19px;
+  cursor: pointer;
+  margin-top:40px;
+
+}
+
+
+/* Fourth Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
+
+
+
+#fourthPartStart{
+  width: 60%;
+  height:60vh;
+  background-color: #fff;
+  margin-left:20%;
+  margin-top: 100px;
+}
+
+.fourthPartItems1{
+  text-align: center;
+  font-size: 21px;
+  line-height: 29.4px;
+}
+.fourthPartItems2{
+  text-align: center;
+  line-height: 40.86px;
+}
+
+
+
+.fourthPartImagesHolder{
+  width: 100%;
+  height:36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.fourthPartImages{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 31.5%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+.fourthPartImages p{
+  margin-bottom: 10%;
+  width: 60%;
+  font-size:21px;
+  line-height: 29.4px;
+  color:#fff;
+
+}
+.fourthPartImages1{
+  background-image: url(../images/fourthPartImages1.png);
+}
+.fourthPartImages2{
+  background-image: url(../images/fourthPartImages2.png);
+}
+.fourthPartImages3{
+  background-image: url(../images/fourthPartImages3.png);
+}
+
+.fourthPartButtonHolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fourthPartButton{
+  padding: 15px 35px;
+  margin-top: 50px;
+  background-color: #333333;
+  color:#fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.19px;
+}
+
+/* Fifth Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+#fifthPartStart{
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.fifthPartQuotient{
+  font-size: 21px;
+  line-height: 29.4px;
+  text-align: center;
+}
+
+.fifthPartText{
+  text-align: center;
+  line-height: 40.86px;
+  margin-top: 20px;
+}
+
+.fifthPartImagesHolder{
+  width:100%;
+  height: 60vh;
+  display: flex;
+  flex-wrap: wrap; 
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* @media screen and (max-width:768px) and (min-width:300px){
+  .fifthPartImagesHolder img{
+   
+  }
+  .fifthPartImagesHolder{
+    height: 30vh;
+    align-content: stretch;
+  }
+} */
+/* Sixth Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#sixthPartStart{
+  width: 100%;
+  height: 45vh;
+  background-image: url(../images/thirdPartBackground.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.sixthPartText1{
+  font-size:21px;
+  line-height: 29.4px;
+  text-align: center;
+  padding-top:3%;
+}
+
+.sixthPartText2{
+  font-size:30px;
+  line-height: 40.86px;
+  text-align: center;
+  padding-top:1%;
+}
+
+.sixthPartSubscribeContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  height:50%;
+  margin: auto;
+}
+
+.sixthPartSubscribeHolder{
+  width: 30%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sixthPartSubscribe::before{
+  content: url(../images/arrowItem.png);
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+.sixthPartSubscribeFormHolder{
+  border: 1px solid white;
+  width: 55%;
+  height: 35%;
+  padding: 2%;
+}
+
+
+.formEmail{
+  width:100%;
+  height:100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.inputEmail{
+  width: 65%;
+  height:55%;
+  border: 1px solid gray;
+  outline: none;
+  margin-left:2%;
+}
+.inputEmail::placeholder{
+  font-weight:500;
+  font-size:14px;
+  padding-left:15%;
+}
+
+.buttonEmail{
+  width: 30%;
+  height:55%;
+  background-color: #333333;
+  color: #fff;
+  outline: none;
+  background-color: none;
+  border: none;
+  margin: auto;
+  cursor:pointer;
+}
+
+
+
+/* Seventh Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#seventhPartStart{
+  width: 60%;
+  height: 100vh;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.columnsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:20px;
+}
+
+.bottomLine{
+  width: 100%;
+  border-top: 1px solid black;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomLine p{
+  margin-top: 25px;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:20vh;
+  width:27%;
+  flex-wrap: wrap;
+}
+
+.seventhPartImagesHolder{
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.seventhPartSeparator{
+  width:100%;
+  border-bottom: 1px solid black;
+}
+
+.beforeImg{
+  display: flex;
+  align-items: center;
+}
+
+.beforeImg img{
+  margin-right: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .columnsContainer{
+    flex-wrap: wrap;
+  }
+  .column{
+    height: auto;
+    width: auto;
+  }
+  .bottomLine{
+    flex-wrap: wrap;
+  }
+}
