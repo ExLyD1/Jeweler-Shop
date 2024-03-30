@@ -44,6 +44,12 @@
   align-items: center;
 }
 
+.groupHolder, .adaptiveMenu{
+  display: none;
+}
+.startBackImgClick{
+  display: none;
+}
 #startQuotient{
   text-align: center;
   color:#fff;
@@ -54,7 +60,6 @@
   border:1px solid white;
   color:#fff;
   text-decoration: none;
-  width: 11%;
   font-size: 17px;
   padding: 15px 35px 15px 35px;
   cursor: pointer;
@@ -122,11 +127,101 @@
   }
 }
 
-/* @media screen and (max-width:350px) {
-  .logoImg{
+@media screen and (max-width:425px) {
+  #startBackImg{
+    background-image: url(../images/backgroundImgStartAdaptive.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
+  #headerItemsHolder{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width:100%;
+    height:10vh;
+  }
+  #headerItemsFirst, #headerItemsThird{
     display: none;
   }
-} */
+  #headerItemsSecond{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .groupHolder{
+    display: inline-block;
+  }
+  #startQuotient{
+    width: 50%;
+    font-size: 30px;
+    
+  }
+  .quoteHolder{
+    margin: auto;
+    margin-top: 240px;
+    width: 100%;
+  }
+  #startButtonKatalog{
+    width:50%;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+  }
+  .separatorBlock{
+    display: none;
+  }
+
+  .adaptiveMenuClick{
+    display: block;
+    width:100%; 
+    height:100vh;
+    background-color: #333333;
+    color:white;
+  }
+  .secondPartStartClick{
+    margin-top: 200px;
+  }
+  .menuLogos{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  .menuSeparator{
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid white;
+  }
+  .selectorsHolder{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:45vh;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .menuLendsHolder{
+    width:35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menuMedias{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .menuSelectors{
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+}
 /* Second Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 .secondPartStart{
@@ -170,6 +265,7 @@
   align-items: center ;
 
 }
+
 
 .categoryItemsActive{
   color:#fff;
@@ -218,11 +314,11 @@
   color:#fff;
 }
 
-/* @media screen and (min-width:1025px) {
+@media screen and (min-width:1025px) {
   .categoryImages{
     height: 100%;
   }
-} */
+}
 /* Third Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 
@@ -383,7 +479,7 @@
   margin-top: 50px;
 }
 
-/* @media screen and (max-width:768px) and (min-width:300px){
+@media screen and (max-width:768px) and (min-width:300px){
   .fifthPartImagesHolder img{
    
   }
@@ -391,7 +487,7 @@
     height: 30vh;
     align-content: stretch;
   }
-} */
+}
 /* Sixth Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
 #sixthPartStart{
